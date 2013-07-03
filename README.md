@@ -1,9 +1,7 @@
 Web Audio Demo List
 =========
 
-A list of Web Audio API demos and applications. These applications use
-the un-prefixed version of the API as described in the spec, and as
-such should work on standards-compliant implementations of Web Audio.
+A list of Web Audio API demos and applications. 
 
 In the future, this will become an attractive page, but for now, it's
 just this README.
@@ -16,7 +14,11 @@ To add a demo to this list, send a pull request, contact
 
 # Demos
 
-## Web Audio Playground
+## Demos using the standard AudioContext
+
+These applications use the un-prefixed version of the API as described in the spec, and as such should work on standards-compliant implementations of Web Audio.
+
+### Web Audio Playground
 
 A graphical interface for experimenting with Web Audio.
 
@@ -25,7 +27,7 @@ A graphical interface for experimenting with Web Audio.
 
 Works in: Google Chrome (>= v27)
 
-## Vocoder
+### Vocoder
 
 Classic vocoder effects and visualisations
 
@@ -34,7 +36,7 @@ Classic vocoder effects and visualisations
 
 Works in: Google Chrome (>= v27)
 
-## Radiophonics Workshop
+### Radiophonics Workshop
 
 BBC R&D's recreation of classic Radiophonic Workshop sounds.
 
@@ -43,7 +45,7 @@ BBC R&D's recreation of classic Radiophonic Workshop sounds.
 
 Works in: Google Chrome (>= v27)
 
-## Pitch detector
+### Pitch detector
 
 A simple pitch detector / guitar tuner.
 
@@ -52,7 +54,14 @@ A simple pitch detector / guitar tuner.
 
 Works in: Google Chrome (>= v27)
 
-## Beat Petite
+## Demos not yet using the standard AudioContext
+
+These are some of the demos we know which were built with the prefixed webkitAudioContext.
+
+We will endeavour to contact their developers and help them change their implementation to use the standard AudioContext. Apps which get updated to use AudioContext will be moved to the list above, others will be removed from the list if we cannot get them updated within a few months.
+
+
+### Beat Petite
 
 A simple drum machine that uses oscillators and noise instead of samples
 
@@ -61,7 +70,7 @@ A simple drum machine that uses oscillators and noise instead of samples
 webkitAudioContext only.
 
 
-## Jam With Chrome
+### Jam With Chrome
 
 A multi-user music playing app.
 
@@ -71,7 +80,7 @@ A multi-user music playing app.
 webkitAudioContext only.
 
 
-## Dataflow
+### Dataflow
 
 A visual audio graph editor using the Web Audio API
 
@@ -79,7 +88,7 @@ A visual audio graph editor using the Web Audio API
 - Code: [https://github.com/forresto/dataflow-webaudio](https://github.com/forresto/dataflow-webaudio)
 
 uses [AudioContext and webkitAudioContext](https://github.com/forresto/dataflow-webaudio/search?q=audiocontext&ref=cmdform)
-## Infinite Jukebox
+### Infinite Jukebox
 
 “With The Infinite Jukebox, you can create a never-ending and ever changing version of any song.   The app works by sending your uploaded track over to The Echo Nest, where it is decomposed into individual beats.  Each beat is then analyzed and matched to other similar sounding beats in the song. ”
 
@@ -89,7 +98,7 @@ uses [AudioContext and webkitAudioContext](https://github.com/forresto/dataflow-
 webkitAudioContext only.
 
 
-## Qwerty Hancock
+### Qwerty Hancock
 
 “Need an interactive vector keyboard for your web audio project?”
 
@@ -98,7 +107,7 @@ webkitAudioContext only.
 
 webkitAudioContext only.
 
-## Fist Pumper
+### Fist Pumper
 
 Web Audio meets accelerometer. 
 
@@ -108,7 +117,7 @@ webkitAudioContext only.
 
 Works in iOS6+
 
-## Plink 
+### Plink 
 
 A multiplayer music experience.
 
@@ -116,7 +125,7 @@ A multiplayer music experience.
 
 webkitAudioContext only.
 
-## ToneCraft
+### ToneCraft
 
 Compose music by putting different colored blocks on a grid in a 3D environment.
 
