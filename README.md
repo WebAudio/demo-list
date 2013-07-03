@@ -51,3 +51,75 @@ A simple pitch detector / guitar tuner.
  - Code: [https://github.com/cwilso/pitchdetect](https://github.com/cwilso/pitchdetect)
 
 Works in: Google Chrome (>= v27)
+
+## Beat Petite
+
+A simple drum machine that uses oscillators and noise instead of samples
+
+- Link: [http://stuartmemo.com/beat-petite/](http://stuartmemo.com/beat-petite/)
+
+webkitAudioContext only.
+
+
+## Jam With Chrome
+
+A multi-user music playing app.
+
+- Link: [http://www.jamwithchrome.com/](http://www.jamwithchrome.com/)
+- How it was built: [https://developers.google.com/events/io/sessions/325619051](https://developers.google.com/events/io/sessions/325619051)
+
+webkitAudioContext only.
+
+
+## Dataflow
+
+A visual audio graph editor using the Web Audio API
+
+- Link: [http://forresto.github.io/dataflow-webaudio/](http://forresto.github.io/dataflow-webaudio/)
+- Code: [https://github.com/forresto/dataflow-webaudio](https://github.com/forresto/dataflow-webaudio)
+
+uses [AudioContext and webkitAudioContext](https://github.com/forresto/dataflow-webaudio/search?q=audiocontext&ref=cmdform)
+## Infinite Jukebox
+
+“With The Infinite Jukebox, you can create a never-ending and ever changing version of any song.   The app works by sending your uploaded track over to The Echo Nest, where it is decomposed into individual beats.  Each beat is then analyzed and matched to other similar sounding beats in the song. ”
+
+- Link: [http://labs.echonest.com/Uploader/index.html](http://labs.echonest.com/Uploader/index.html)
+- How it was built: [http://musicmachinery.com/2012/11/12/the-infinite-jukebox/](http://musicmachinery.com/2012/11/12/the-infinite-jukebox/)
+
+webkitAudioContext only.
+
+
+## Qwerty Hancock
+
+“Need an interactive vector keyboard for your web audio project?”
+
+- Link: [http://stuartmemo.com/qwerty-hancock/](http://stuartmemo.com/qwerty-hancock/)
+- Code: [https://github.com/stuartmemo/qwerty-hancock](https://github.com/stuartmemo/qwerty-hancock)
+
+webkitAudioContext only.
+
+## Fist Pumper
+
+Web Audio meets accelerometer. 
+
+- Link: [http://www.plan8.se/fistpumper/](http://www.plan8.se/fistpumper/)
+
+webkitAudioContext only.
+
+Works in iOS6+
+
+## Plink 
+
+A multiplayer music experience.
+
+- Link: [http://labs.dinahmoe.com/plink/](http://labs.dinahmoe.com/plink/)
+
+webkitAudioContext only.
+
+## ToneCraft
+
+Compose music by putting different colored blocks on a grid in a 3D environment.
+
+- Link: [http://labs.dinahmoe.com/ToneCraft/](http://labs.dinahmoe.com/ToneCraft/)
+
+webkitAudioContext only.
