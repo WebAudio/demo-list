@@ -20,7 +20,7 @@ To add a demo to this list, send a pull request, contact
 
 A graphical interface for experimenting with Web Audio.
 
-Link: [http://webaudioplayground.appspot.com/](http://webaudioplayground.appspot.com/)
+ - Link: [http://webaudioplayground.appspot.com/](http://webaudioplayground.appspot.com/)
 Code: [https://github.com/cwilso/WebAudio](https://github.com/cwilso/WebAudio)
 
 Works in: Google Chrome (>= v27)
@@ -29,8 +29,8 @@ Works in: Google Chrome (>= v27)
 
 Classic vocoder effects and visualisations
 
-Link: [http://webaudiovocoder.appspot.com/](http://webaudiovocoder.appspot.com/)
-Code: [https://github.com/cwilso/vocoder](https://github.com/cwilso/vocoder)
+ - Link: [http://webaudiovocoder.appspot.com/](http://webaudiovocoder.appspot.com/)
+ - Code: [https://github.com/cwilso/vocoder](https://github.com/cwilso/vocoder)
 
 Works in: Google Chrome (>= v27)
 
@@ -38,8 +38,8 @@ Works in: Google Chrome (>= v27)
 
 BBC R&D's recreation of classic Radiophonic Workshop sounds.
 
-Link: [http://webaudio.prototyping.bbc.co.uk/](http://webaudio.prototyping.bbc.co.uk/)
-Code: Included in the demo
+ - Link: [http://webaudio.prototyping.bbc.co.uk/](http://webaudio.prototyping.bbc.co.uk/)
+ - Code: Included in the demo
 
 Works in: Google Chrome (>= v27)
 
@@ -47,7 +47,7 @@ Works in: Google Chrome (>= v27)
 
 A simple pitch detector / guitar tuner.
 
-Link: [http://webaudiodemos.appspot.com/pitchdetect/](http://webaudiodemos.appspot.com/pitchdetect/)
-Code: [https://github.com/cwilso/pitchdetect](https://github.com/cwilso/pitchdetect)
+ - Link: [http://webaudiodemos.appspot.com/pitchdetect/](http://webaudiodemos.appspot.com/pitchdetect/)
+ - Code: [https://github.com/cwilso/pitchdetect](https://github.com/cwilso/pitchdetect)
 
 Works in: Google Chrome (>= v27)
