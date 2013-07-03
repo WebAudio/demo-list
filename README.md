@@ -21,7 +21,7 @@ To add a demo to this list, send a pull request, contact
 A graphical interface for experimenting with Web Audio.
 
  - Link: [http://webaudioplayground.appspot.com/](http://webaudioplayground.appspot.com/)
-Code: [https://github.com/cwilso/WebAudio](https://github.com/cwilso/WebAudio)
+ - Code: [https://github.com/cwilso/WebAudio](https://github.com/cwilso/WebAudio)
 
 Works in: Google Chrome (>= v27)
 
