@@ -141,3 +141,12 @@ Compose music by putting different colored blocks on a grid in a 3D environment.
 - Link: [http://labs.dinahmoe.com/ToneCraft/](http://labs.dinahmoe.com/ToneCraft/)
 
 webkitAudioContext only.
+
+### pedals.io
+
+Guitar pedals in the browser. Offers multi-user real time guitar jamming.
+
+- Link: [http://pedals.io/](http://pedals.io/)
+- Open-source framework: [http://dashersw.github.com/pedalboard.js](http://dashersw.github.com/pedalboard.js)
+
+webkitAudioContext only
