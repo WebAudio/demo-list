@@ -58,7 +58,7 @@ Works in: Google Chrome (>= v27)
 
 A simple pitch detector / guitar tuner.
 
- - Link: [http://webaudiodemos.appspot.com/pitchdetect/](http://webaudiodemos.appspot.com/pitchdetect/)
+ - Link: [http://webaudiodemos.appspot.com/pitchdetect/index.html/](http://webaudiodemos.appspot.com/pitchdetect/)
  - Code: [https://github.com/cwilso/pitchdetect](https://github.com/cwilso/pitchdetect)
 
 Works in: Google Chrome (>= v27)
