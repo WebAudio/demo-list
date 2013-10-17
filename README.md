@@ -126,6 +126,7 @@ A multiplayer music experience.
 
 Confirmed as only using webkitAudioContext as of 2013-10-17.
 
+Dinahmoe contacted by OT 2013-10-17.
 
 ### Qwerty Hancock
 
@@ -134,7 +135,9 @@ Confirmed as only using webkitAudioContext as of 2013-10-17.
 - Link: [http://stuartmemo.com/qwerty-hancock/](http://stuartmemo.com/qwerty-hancock/)
 - Code: [https://github.com/stuartmemo/qwerty-hancock](https://github.com/stuartmemo/qwerty-hancock)
 
-Confirmed as only using webkitAudioContext as of 2013-10-17.
+Confirmed as only using webkitAudioContext as of 2013-10-17. 
+
+Stuart contacted by OT 2013-10-17. 
 
 ### ToneCraft
 
@@ -142,5 +145,7 @@ Compose music by putting different colored blocks on a grid in a 3D environment.
 
 - Link: [http://labs.dinahmoe.com/ToneCraft/](http://labs.dinahmoe.com/ToneCraft/)
 - About: [http://labs.dinahmoe.com/#tonecraft](http://labs.dinahmoe.com/#tonecraft)
+
 Confirmed as only using webkitAudioContext as of 2013-10-17.
 
+Dinahmoe contacted by OT 2013-10-17.
