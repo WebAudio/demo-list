@@ -22,6 +22,13 @@ Unless reported otherwise, the following demos will work in:
 * Google Chrome (>= v27)
 * Firefox Nightly
 
+### Beat Petite
+
+A simple drum machine that uses oscillators and noise instead of samples
+
+- Link: [http://stuartmemo.com/beat-petite/](http://stuartmemo.com/beat-petite/)
+
+Appears to use both AudioContext and webkitAudioContext. TBC -- OT 2010-10-17
 
 ### Dataflow
 
@@ -76,13 +83,6 @@ These are some of the demos we know which were built with the prefixed webkitAud
 
 We will endeavour to contact their developers and help them change their implementation to use the standard AudioContext. Apps which get updated to use AudioContext will be moved to the list above, others will be removed from the list if we cannot get them updated within a few months.
 
-### Beat Petite
-
-A simple drum machine that uses oscillators and noise instead of samples
-
-- Link: [http://stuartmemo.com/beat-petite/](http://stuartmemo.com/beat-petite/)
-
-webkitAudioContext only.
 
 ### Fist Pumper
 
@@ -107,6 +107,7 @@ A multi-user music playing app.
 - Link: [http://www.jamwithchrome.com/](http://www.jamwithchrome.com/)
 - How it was built: [https://developers.google.com/events/io/sessions/325619051](https://developers.google.com/events/io/sessions/325619051)
 
+
 ### pedals.io
 
 Guitar pedals in the browser. Offers multi-user real time guitar jamming.
@@ -114,12 +115,16 @@ Guitar pedals in the browser. Offers multi-user real time guitar jamming.
 - Link: [http://pedals.io/](http://pedals.io/)
 - Open-source framework: [http://dashersw.github.com/pedalboard.js](http://dashersw.github.com/pedalboard.js)
 
+Confirmed as only using webkitAudioContext as of 2013-10-17.
 
 ### Plink
 
 A multiplayer music experience.
 
 - Link: [http://labs.dinahmoe.com/plink/](http://labs.dinahmoe.com/plink/)
+- About: [http://labs.dinahmoe.com/#plink](http://labs.dinahmoe.com/#plink)
+
+Confirmed as only using webkitAudioContext as of 2013-10-17.
 
 
 ### Qwerty Hancock
@@ -129,11 +134,13 @@ A multiplayer music experience.
 - Link: [http://stuartmemo.com/qwerty-hancock/](http://stuartmemo.com/qwerty-hancock/)
 - Code: [https://github.com/stuartmemo/qwerty-hancock](https://github.com/stuartmemo/qwerty-hancock)
 
-
+Confirmed as only using webkitAudioContext as of 2013-10-17.
 
 ### ToneCraft
 
 Compose music by putting different colored blocks on a grid in a 3D environment.
 
 - Link: [http://labs.dinahmoe.com/ToneCraft/](http://labs.dinahmoe.com/ToneCraft/)
+- About: [http://labs.dinahmoe.com/#tonecraft](http://labs.dinahmoe.com/#tonecraft)
+Confirmed as only using webkitAudioContext as of 2013-10-17.
 
