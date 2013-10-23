@@ -77,6 +77,15 @@ A graphical interface for experimenting with Web Audio.
  - Code: [https://github.com/cwilso/WebAudio](https://github.com/cwilso/WebAudio)
 
 
+### Mixbolt
+
+A DJ app using the Web Audio API
+
+- Link: [http://mixbolt.com/](http://mixbolt.com/)
+
+Note: Automatically switches between AudioContext, mozAudioContext and webkitAudioContext based on availability
+
+
 ## Demos not yet using the standard AudioContext
 
 These are some of the demos we know which were built with the prefixed webkitAudioContext.
