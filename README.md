@@ -28,8 +28,6 @@ A simple drum machine that uses oscillators and noise instead of samples
 
 - Link: [http://stuartmemo.com/beat-petite/](http://stuartmemo.com/beat-petite/)
 
-Appears to use both AudioContext and webkitAudioContext. TBC -- OT 2010-10-17
-
 ### Dataflow
 
 A visual audio graph editor using the Web Audio API
@@ -39,12 +37,26 @@ A visual audio graph editor using the Web Audio API
 
 Note: uses both [AudioContext and webkitAudioContext](https://github.com/forresto/dataflow-webaudio/search?q=audiocontext&ref=cmdform)
 
+### Mixbolt
+
+A DJ app using the Web Audio API
+
+- Link: [http://mixbolt.com/](http://mixbolt.com/)
+
 ### Pitch detector
 
 A simple pitch detector / guitar tuner.
 
 - Link: [http://webaudiodemos.appspot.com/pitchdetect/index.html/](http://webaudiodemos.appspot.com/pitchdetect/)
 - Code: [https://github.com/cwilso/pitchdetect](https://github.com/cwilso/pitchdetect)
+
+
+### Qwerty Hancock
+
+“Need an interactive vector keyboard for your web audio project?”
+
+- Link: [http://stuartmemo.com/qwerty-hancock/](http://stuartmemo.com/qwerty-hancock/)
+- Code: [https://github.com/stuartmemo/qwerty-hancock](https://github.com/stuartmemo/qwerty-hancock)
 
 ### Radiophonics Workshop
 
@@ -76,14 +88,6 @@ A graphical interface for experimenting with Web Audio.
  - Link: [http://webaudioplayground.appspot.com/](http://webaudioplayground.appspot.com/)
  - Code: [https://github.com/cwilso/WebAudio](https://github.com/cwilso/WebAudio)
 
-
-### Mixbolt
-
-A DJ app using the Web Audio API
-
-- Link: [http://mixbolt.com/](http://mixbolt.com/)
-
-Note: Automatically switches between AudioContext, mozAudioContext and webkitAudioContext based on availability
 
 
 ## Demos not yet using the standard AudioContext
@@ -137,16 +141,6 @@ Confirmed as only using webkitAudioContext as of 2013-10-17.
 
 Dinahmoe contacted by OT 2013-10-17.
 
-### Qwerty Hancock
-
-“Need an interactive vector keyboard for your web audio project?”
-
-- Link: [http://stuartmemo.com/qwerty-hancock/](http://stuartmemo.com/qwerty-hancock/)
-- Code: [https://github.com/stuartmemo/qwerty-hancock](https://github.com/stuartmemo/qwerty-hancock)
-
-Confirmed as only using webkitAudioContext as of 2013-10-17. 
-
-Stuart contacted by OT 2013-10-17. 
 
 ### ToneCraft
 
