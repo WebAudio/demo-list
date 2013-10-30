@@ -64,6 +64,14 @@ BBC R&D's recreation of classic Radiophonic Workshop sounds.
 
  - Link: [http://webaudio.prototyping.bbc.co.uk/](http://webaudio.prototyping.bbc.co.uk/)
  - Code: Included in the demo
+ 
+### Songs of Diridum
+
+Listen to a mellow jazz band in a 3D environment. Demo using WebGL and the Web Audio API. 
+ 
+ - Link [http://www.gooengine.com/mozilla-web-audio-demo-built-in-goo-engine/](http://www.gooengine.com/mozilla-web-audio-demo-built-in-goo-engine/)
+ - How it was built: [https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/](https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/)
+
 
 ### To The Beat
 
