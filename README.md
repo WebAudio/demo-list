@@ -32,7 +32,7 @@ A simple drum machine that uses oscillators and noise instead of samples
 
 A simple sonification of Conway’s Game of Life
 
-- Link: [http://www.cappel-nord.de/webaudio/conways-melodies/](http://www.cappel-nord.de/webaudio/conways-melodies/)
+- Link: http://www.cappel-nord.de/webaudio/conways-melodies/
 
 ### Dataflow
 
@@ -47,7 +47,7 @@ Note: uses both [AudioContext and webkitAudioContext](https://github.com/forrest
 
 A multiplayer persistent circular pattern sequencer
 
-- Link: [http://nmf.cappel-nord.de](http://nmf.cappel-nord.de)
+- Link: http://nmf.cappel-nord.de/
 
 ### Mixbolt
 
