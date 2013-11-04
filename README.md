@@ -111,6 +111,8 @@ A graphical interface for experimenting with Web Audio.
 
 These are some of the demos we know which were built with the prefixed webkitAudioContext.
 
+Demos listed below will work on Google Chrome (>= v25), Apple Safari 6 (Mountain Lion) and later, and in iOS (6 and later).
+
 We will endeavour to contact their developers and help them change their implementation to use the standard AudioContext. Apps which get updated to use AudioContext will be moved to the list above, others will be removed from the list if we cannot get them updated within a few months.
 
 
