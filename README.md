@@ -28,6 +28,12 @@ A simple drum machine that uses oscillators and noise instead of samples
 
 - Link: [http://stuartmemo.com/beat-petite/](http://stuartmemo.com/beat-petite/)
 
+### Conway’s Melodies
+
+A simple sonification of Conway’s Game of Life
+
+- Link: [http://www.cappel-nord.de/webaudio/conways-melodies/](http://www.cappel-nord.de/webaudio/conways-melodies/)
+
 ### Dataflow
 
 A visual audio graph editor using the Web Audio API
@@ -36,6 +42,12 @@ A visual audio graph editor using the Web Audio API
 - Code: [https://github.com/forresto/dataflow-webaudio](https://github.com/forresto/dataflow-webaudio)
 
 Note: uses both [AudioContext and webkitAudioContext](https://github.com/forresto/dataflow-webaudio/search?q=audiocontext&ref=cmdform)
+
+### Interactive Networked Web Audio Experiences
+
+A multiplayer persistent circular pattern sequencer
+
+- Link: [http://nmf.cappel-nord.de](http://nmf.cappel-nord.de)
 
 ### Mixbolt
 
