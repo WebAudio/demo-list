@@ -3,9 +3,6 @@ Web Audio Demo List
 
 A list of Web Audio API demos and applications.
 
-In the future, this will become an attractive page, but for now, it's
-just this README.
-
 # Contributing
 
 To add a demo to this list, send a pull request, or contact
@@ -20,7 +17,7 @@ These applications use the un-prefixed version of the API as described in the sp
 Unless reported otherwise, the following demos will work in:
 
 * Google Chrome (>= v27)
-* Firefox Nightly
+* Firefox (>= v25)
 
 ### Beat Petite
 
