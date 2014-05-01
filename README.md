@@ -82,6 +82,14 @@ Listen to a mellow jazz band in a 3D environment. Demo using WebGL and the Web A
  - How it was built: [https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/](https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/)
 
 
+### Soundslice
+
+Interactive sheet music and guitar tablature. Syncs audio with notation, allows for slowdown without changing pitch (using Web Audio API), offers "synthetic" audio option that generates audio from notation using samples (using Web Audio API).
+
+- Link: [http://www.soundslice.com/](http://www.soundslice.com/)
+- Full-page example: [http://www.soundslice.com/v2/auld-lang-syne/](http://www.soundslice.com/v2/auld-lang-syne/)
+
+
 ### To The Beat
 
 A somewhat non interactive demothingie by [5013](http://5013.es/)
