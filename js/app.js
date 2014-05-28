@@ -16,10 +16,12 @@ window.addEventListener("load", function(event){
             el.style.setProperty("top", "0px");
             bm.style.setProperty("opacity", "0");
             bm.style.setProperty("height", "0px");
+            setTimeout(function(){bm.style.setProperty("display", "none");}, 150);
         } else {
             el.style.setProperty("top", "-50px");
             bm.style.setProperty("opacity", "1.0");
             bm.style.setProperty("height", "180px");
+            bm.style.removeProperty("display");
         }
         pP.x=x, pP.y=y;
     };
