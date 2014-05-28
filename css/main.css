@@ -122,3 +122,7 @@ div.midi-icon-h2 {
 div.row {
   margin-left:15px;
 }
+
+div .navbar-nav li {
+  width:170px;
+}
