@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Web Audio/MIDI Demo List | W3C Audio WG</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+    <link href="css/main.css" rel="stylesheet">
+ 
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <a name="top"></a>
+    <!-- Static navbar -->
+    <div id="g-navi" class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container" style="width:100%;">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="audiowg-icon"></div>
+          <a class="navbar-brand" href="#">Web Audio/MIDI Demos</a>
+
+        </div>
+        <div id="nav" class="navbar-collapse collapse" style="width:100%;">
+          <ul class="nav navbar-nav">
+            <li><a href="#webaudio"><span class="glyphicon glyphicon-music"></span> Web Audio Demos</a></li>
+            <li><a href="#webmidi"><div id="midi-icon" class="midi-icon"></div><div id="midi-icon-text" class="midi-icon-text">&nbsp;Web MIDI Demos</div></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-book"></span> Specs <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="http://www.w3.org/2011/audio/charter/2012/charter-proposed.html">Charter <span class="glyphicon glyphicon-new-window"></span></a></li>
+                <li class="divider"></li>
+                <li><a href="http://webaudio.github.io/web-audio-api/">Web Audio API <span class="glyphicon glyphicon-new-window"></span></a></li>
+                <li><a href="http://webaudio.github.io/web-midi-api/">Web MIDI API <span class="glyphicon glyphicon-new-window"></span></a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right"></ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+    <div style="height:65px;"></div>
+    <div class="container-fluid demo-contents">
+      <!-- Main component for a primary marketing message or call to action -->
+      <div class="top-title">
+        <h2 class="h2-top-title">Web Audio/MIDI List</h2>
+                
+        <p>A list of Web Audio API demos and applications.</p>
+
+        <h3>Contributing</h3>
+        <p>To add a demo to this list, send a pull request, or contact <a href="mailto:public-audio@w3.org">post to the W3C Web Audio mailing list.</a></p>        
+      </div>
+
+      <a name="webaudio"></a>
+      <h2 id="btn-groups" class="page-header"><span class="glyphicon glyphicon-music"></span> Web Audio Demos</h2>
+
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Beat Petite</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/beat_petite.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A simple drum machine that uses oscillators and noise instead of samples</p>
+          <a class="btn btn-default" href="http://stuartmemo.com/beat-petite/" role="button" target="_blank">App »</a>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Conway’s Melodies</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/conways_melodies.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A simple sonification of Conway’s Game of Life</p>
+          <a class="btn btn-default" href="http://www.cappel-nord.de/webaudio/conways-melodies/" role="button" target="_blank">App »</a>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Dataflow</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/dataflow.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A visual audio graph editor using the Web Audio API</p>
+          <p>
+            <a class="btn btn-default" href="http://forresto.github.io/dataflow-webaudio/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/forresto/dataflow-webaudio" role="button" target="_blank">Code »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> Note: uses both <a src="https://github.com/forresto/dataflow-webaudio/search?q=audiocontext&ref=cmdform" target="_blank">AudioContext and webkitAudioContext</a></p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Interactive Networked Web Audio Experiences</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/interactive_networked_webaudio_experiment.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A multiplayer persistent circular pattern sequencer</p>
+          <p>
+            <a class="btn btn-default" href="http://nmf.cappel-nord.de/" role="button" target="_blank">App »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Mixbolt</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/mixbolt.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A DJ app using the Web Audio API</p>
+          <p>
+            <a class="btn btn-default" href="http://mixbolt.com/" role="button" target="_blank">App »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Pitch detector</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/pitch_detect.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A simple pitch detector / guitar tuner.</p>
+          <p>
+            <a class="btn btn-default" href="http://webaudiodemos.appspot.com/pitchdetect/index.html" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/cwilso/pitchdetect" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Qwerty Hancock</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/qwerty_hancock.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>“Need an interactive vector keyboard for your web audio project?”</p>
+          <p>
+            <a class="btn btn-default" href="http://stuartmemo.com/qwerty-hancock/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/stuartmemo/qwerty-hancock" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Radiophonics Workshop</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/radiophonics_workshop.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>BBC R&D's recreation of classic Radiophonic Workshop sounds.</p>
+          <p>
+            <a class="btn btn-default" href="http://webaudio.prototyping.bbc.co.uk/" role="button" target="_blank">App »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> Code: Included in the demo</p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Songs of Diridum</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/songs_of_diridum.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Listen to a mellow jazz band in a 3D environment. Demo using WebGL and the Web Audio API.</p>
+          <p>
+            <a class="btn btn-default" href="http://www.gooengine.com/mozilla-web-audio-demo-built-in-goo-engine/" role="button" target="_blank">App »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> <a href="https://hacks.mozilla.org/2013/10/songs-of-diridum-pushing-the-web-audio-api-to-its-limits/" target="_blank">How it was built</a></p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Soundslice</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/soundslice.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Interactive sheet music and guitar tablature. Syncs audio with notation, allows for slowdown without changing pitch (using Web Audio API), offers "synthetic" audio option that generates audio from notation using samples (using Web Audio API).</p>
+          <p>
+            <a class="btn btn-default" href="http://www.soundslice.com/" role="button" target="_blank">App »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> <a href="http://www.soundslice.com/v2/auld-lang-syne/" target="_blank">Full-page example</a></p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">To The Beat</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/to_the_beat.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A somewhat non interactive demothingie by <a href="http://5013.es/" target="_blank">5013</a></p>
+          <p>
+            <a class="btn btn-default" href="http://5013.es/toys/to_the_beat_js/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/sole/to_the_beat" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Vocoder</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/vocoder.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Classic vocoder effects and visualisations</p>
+          <p>
+            <a class="btn btn-default" href="http://webaudiovocoder.appspot.com/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/cwilso/vocoder" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Web Audio Playground</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/web_audio_playground.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A graphical interface for experimenting with Web Audio.</p>
+          <p>
+            <a class="btn btn-default" href="http://webaudioplayground.appspot.com/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/cwilso/WebAudio" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">ChucK Demos</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/chuck_demos.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Executable demonstrations of the <a href="http://chuck.cs.princeton.edu/" target="_blank">ChucK</a> music programming language.</p>
+          <p>
+            <a class="btn btn-default" href="http://chuckdemos.com" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/aknuds1/chuckjs" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+
+      <!-- prefixed webaudiocontext-->
+
+
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">First Pumper</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/first_pumper.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Web Audio meets accelerometer.</p>
+          <p>
+            <a class="btn btn-default" href="http://www.plan8.se/fistpumper/" role="button" target="_blank">App »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> Works in iOS6+ (requires accelerometer support)</p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Infinite Jukebox</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/infinite_jukebox.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>“With The Infinite Jukebox, you can create a never-ending and ever changing version of any song. The app works by sending your uploaded track over to The Echo Nest, where it is decomposed into individual beats. Each beat is then analyzed and matched to other similar sounding beats in the song. ”</p>
+          <p>
+            <a class="btn btn-default" href="http://labs.echonest.com/Uploader/index.html" role="button" target="_blank">App »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> <a hred="http://musicmachinery.com/2012/11/12/the-infinite-jukebox/" target="_blank">How it was built</a></p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Jam With Chrome</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/jam_with_chrome.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A multi-user music playing app.</p>
+          <p>
+            <a class="btn btn-default" href="http://www.jamwithchrome.com/" role="button" target="_blank">App »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> <a hred="https://developers.google.com/events/io/sessions/325619051" target="_blank">How it was built</a></p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">pedals.io</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/pedals_io.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Guitar pedals in the browser. Offers multi-user real time guitar jamming.</p>
+          <p>
+            <a class="btn btn-default" href="http://pedals.io/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="http://dashersw.github.com/pedalboard.js" role="button" target="_blank">Code »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> Confirmed as only using webkitAudioContext as of 2013-10-17.</p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Plink</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/plink.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>A multiplayer music experience.</p>
+          <p>
+            <a class="btn btn-default" href="http://labs.dinahmoe.com/plink/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="http://labs.dinahmoe.com/#plink" role="button" target="_blank">About»</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> Confirmed as only using webkitAudioContext as of 2013-10-17.</p>
+          <p>Dinahmoe contacted by OT 2013-10-17.</p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">ToneCraft</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/tonecraft.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Compose music by putting different colored blocks on a grid in a 3D environment.</p>
+          <p>
+            <a class="btn btn-default" href="http://labs.dinahmoe.com/ToneCraft/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="http://labs.dinahmoe.com/#tonecraft" role="button" target="_blank">About »</a>
+          </p>
+          <p><i class="glyphicon glyphicon-info-sign"></i> Confirmed as only using webkitAudioContext as of 2013-10-17.</p>
+          <p>Dinahmoe contacted by OT 2013-10-17.</p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+
+
+      <a name="webmidi"></a>
+      <h2 id="btn-groups" class="page-header"><div class="midi-icon-h2"></div> Web MIDI Demos</h2>
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Shiny Happy MIDI Drum Machine</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/shiny_happy_midi_drum_machine.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Web Audio Drum Machine which can also play by MIDI Device.</p>
+          <p>
+            <a class="btn btn-default" href="http://webaudiodemos.appspot.com/MIDIDrums/index.html" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/cwilso/MIDIDrums" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+      <!-- demo info: begin -->
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 id="btn-groups-vertical" class="app-title">Standard MIDI File Player</h2>
+        </div>
+        <div>
+          <div class="demo-image" style="margin-left:20px;">
+            <img src="images/standard_midi_file_player.png">
+          </div>
+        </div>
+        <div class="col-xs-10 col-sm-9 demo-description">
+          <p>Standard MIDI File Player. Play with External MIDI device and Web Audio tone generator over Web MIDI Link</p>
+          <p>
+            <a class="btn btn-default" href="http://ryoyakawai.github.io/smfplayer/" role="button" target="_blank">App »</a>
+            <a class="btn btn-default" href="https://github.com/ryoyakawai/smfplayer" role="button" target="_blank">Code »</a>
+          </p>
+        </div>
+      </div>
+      <div style="clear:both;"></div>
+      <hr class="divider-a">
+      <!-- demo info: end -->
+
+
+      <div style="height:80px;"></div>
+    </div> <!-- /container -->
+   
+    <div class="footericon">
+      <div id="bottom-menu" class="bottom-menu">
+        <div class="b-link-icon"><a href="#top"><span class="glyphicon glyphicon-chevron-up"></span></a></div>
+        <div style="height:10px;"></div>
+        <div class="b-link-icon"><a href="#webaudio"><span class="glyphicon glyphicon-music"></span></a></div>
+        <div style="height:10px;"></div>
+        <div class="b-link-icon"><a href="#webmidi"><div id="midi-icon02" class="midi-icon02"></div></a></div>
+      </div>
+      <div style="float:right;">
+        <a href="http://www.w3.org/" target="_blank"><img src="images/w3c_logo.png" width="50px"></a>
+      </div>
+    </div>
+
+    <div id="footer"></div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+
+    </script>
+  </body>
+</html>
