@@ -7,4 +7,4 @@ This is where the W3C Audio WG keeps a list of [demos or interesting application
 
 We are no longer accepting new contributions now.  We suggest submitting your interesting applications to other places, such as the [WebAudio Weekly](http://www.webaudioweekly.com/about/).
 
-We thank everyone who has contributed demos already, and we regret not taking any more for those who have recently submitted new demos.  This is not a judgement on the quality of the demos; we simply like the time to manage this anymore.
+We thank everyone who has contributed demos already, and we regret not taking any more for those who have recently submitted new demos.  This is not a judgement on the quality of the demos; we simply lack the time to manage this anymore.
