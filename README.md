@@ -1,6 +1,6 @@
 # Web Audio/MIDI Demo List
 
-This is where the W3C Audio WG used to keep a list of [demos or interesting applications of the Web Audio/MIDI APIs](http://webaudio.github.com/demo-list/).
+This is where the W3C Audio WG used to keep a list of [demos or interesting applications of the Web Audio/MIDI APIs](http://webaudio.github.io/demo-list/).
 
 
 ## Contributing
